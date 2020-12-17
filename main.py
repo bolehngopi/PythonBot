@@ -22,4 +22,4 @@ async def delete_error(ctx, error):
     await ctx.send('Please specify a amount of messsage to delete')
 
 
-client.run('NjUzMjI3NjYzNjk1MTUxMTE0.Xez7qw.ESin0jCD9TKCBhO_29psJdMT-6M')
+client.run('Your Token')
