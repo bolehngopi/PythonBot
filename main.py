@@ -21,9 +21,5 @@ async def purge_error(ctx, error):
   if isinstance(error, commands.MissingRequiredArgument):
     await ctx.send('Please specify a amount of messsage to delete')
 
-@client.command()
-async def ping(ctx):
-  await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
 
- 
 client.run('NjUzMjI3NjYzNjk1MTUxMTE0.Xez7qw.ESin0jCD9TKCBhO_29psJdMT-6M')
