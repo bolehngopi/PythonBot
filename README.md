@@ -17,4 +17,4 @@ You can see in [`main.py`](https://github.com/Azizkhasyi11/PythonBot/blob/main/m
 
 ### Done
 If you want make costum commands just write:
--@client.command
+-   @client.command
