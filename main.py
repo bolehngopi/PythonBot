@@ -12,7 +12,7 @@ async def on_message_error(ctx, error):
   pass
 
 @client.command()
-async def purge(ctx, amount : int):
+async def delete(ctx, amount : int):
   await ctx.channel.purge(limit=amount)
 
 @client.error
