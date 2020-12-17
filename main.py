@@ -16,8 +16,8 @@ async def on_message_error(ctx, error):
 async def delete(ctx, amount : int):
   await ctx.channel.purge(limit=amount)
 
-@client.error
-async def purge_error(ctx, error):
+@delete.error
+async def delete_error(ctx, error):
   if isinstance(error, commands.MissingRequiredArgument):
     await ctx.send('Please specify a amount of messsage to delete')
 
