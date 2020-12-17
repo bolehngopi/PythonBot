@@ -5,6 +5,7 @@ client = commands.Bot(command_prefix = 'h!')
 
 @client.event
 async def on_ready():
+  await client.change_presence(status=discord.Status.online, activity=discord.Game('Idk'))
   print('Bot is now online')
 
 @client.error
@@ -24,4 +25,5 @@ async def purge_error(ctx, error):
 async def ping(ctx):
   await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
 
+ 
 client.run('NjUzMjI3NjYzNjk1MTUxMTE0.Xez7qw.ESin0jCD9TKCBhO_29psJdMT-6M')
