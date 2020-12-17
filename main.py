@@ -8,7 +8,7 @@ async def on_ready():
   await client.change_presence(status=discord.Status.online, activity=discord.Game('Idk'))
   print('Bot is now online')
 
-@client.error
+@client.event
 async def on_message_error(ctx, error):
   pass
 
