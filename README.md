@@ -1,9 +1,9 @@
-## PythonBot
->    A python bot
+# PythonBot
+>    A python bot guide just for you 😊
 
-<hr></hr>
+****
 
-## How to use
+## How to make
 ### Requirements
 See requirements.txt to see what need it
 
@@ -24,4 +24,4 @@ async def (name of commands)():
    await ctx.send('description')
 ```
 
-<hr></hr>
+****
