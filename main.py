@@ -16,6 +16,7 @@ async def on_message_error(ctx, error):
 async def delete(ctx, amount : int):
   await ctx.channel.purge(limit=amount)
   
+@client.command()
 async def ping(ctx):
     if round(client.latency * 1000) <= 50:
         embed=discord.Embed(title="PING", description=f":ping_pong: Pingpingpingpingping! The ping is **{round(client.latency *1000)}** milliseconds!", color=0x44ff44)
