@@ -1,7 +1,7 @@
 ## PythonBot
-A python bot
+>    A python bot
 
-<he></hr>
+<hr></hr>
 
 ## How to use
 ### Requirements
@@ -23,3 +23,5 @@ If you want make costum commands just write:
 async def (name of commands)():
    await ctx.send('description')
 ```
+
+<hr></hr>
